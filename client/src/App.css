@@ -1,0 +1,207 @@
+/* cards */
+
+#outer {
+    background-color: rgb(236, 229, 229);
+    padding: 20px;
+}
+
+.cardhead {
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+
+.cardMain {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 20%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px red;
+}
+
+#card2,
+#card4 {
+    margin-top: 30px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(210, 204, 204);
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+
+.one {
+    margin-left: 355px;
+    top: 865px;
+}
+
+.two {
+    margin-left: 525px;
+    top: 1175px;
+}
+
+.three {
+    margin-left: 695px;
+    top: 865px;
+}
+
+.four {
+    margin-left: 870px;
+    top: 1175px;
+}
+
+.five {
+    margin-left: 1040px;
+    top: 865px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* header */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 3px solid white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.headName {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.logo {
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 2px;
+}
+
+/* home */
+
+.home1 {
+    width: 100%;
+    height: 360px;
+    background-image: url(https://th.bing.com/th/id/OIP.G9i_gEoTAgAV_Fvc2YZhAQHaDd?w=338&h=163&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.tech {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teens {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.set {
+    margin-left: 400px;
+    padding-top: 100px;
+}
+
+.set1{
+    margin-left: 380px;
+}
+
+.home2{
+    width: 100%;
+    height: 250px;
+}
+
+.set2{
+    width: 60%;
+    height: 250px;
+    margin-left: 20%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.set3{
+   width: 60%; 
+   height: 250px;
+   margin-right: 2%;
+   box-sizing: border-box;
+}
+.set4{
+    width: 40%; 
+    height: 250px;
+}
+
+.home2Img{
+    margin: 0px;
+    margin-top: 25px;
+    height: 200px;
+    width: 350px;
+}
+
+.home3{
+    width: 100%;
+    height: 100px;
+    background-color: mediumvioletred;
+    color: white;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1px;
+    margin-top: 20px;
+}

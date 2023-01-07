@@ -1,0 +1,28 @@
+.main{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    display: flex;
+}
+
+form{
+    width: 50%;
+    margin-left: 5%;
+}
+
+input,button{
+    width: 400px;
+    height: 30px;
+}
+
+.get{
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-right: 2px solid yellowgreen;
+}
